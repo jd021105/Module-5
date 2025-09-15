@@ -1,12 +1,9 @@
 # Exp.No:23  
 ## Multiple Inheritance
 
----
-
 ### AIM  
 To write a Python program to get the name, attendance, and ID of a student and check if they are eligible for the next module using multiple inheritance. If attendance > 80, the student is eligible; otherwise, not eligible.
 
----
 
 ### ALGORITHM
 
@@ -27,19 +24,30 @@ To write a Python program to get the name, attendance, and ID of a student and c
 9. Call the `check_eligibility` method on the `student` object and print the result.
 10. Terminate the program.
 
----
 
 ### PROGRAM
 
 ```
+# Reg.No-212223060038
+# Name-Deepak krishna.J
+class Demo:
+    def __init__(self):
+        self.status = "Alive"
+    
+    def __del__(self):
+        print('The object no longer exists')
+
+obj = Demo()
+print(obj.status)
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/58582acc-a705-4269-a3be-dc97c20a9dec)
 
 
 ### RESULT
-
+Thus the program that demonstrates the use of a destructor method (del) in a class to indicate when an object is destroyed has been implemented and executed successfully.
 
 
 
